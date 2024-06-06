@@ -43,7 +43,7 @@ public class Main {
                 result = Rim.rim(razdel[0]) - Rim.rim(razdel[1]);
                 break;
             default:
-                System.out.print("Калькулятор неумеет работать со знаком " + znac);
+                System.out.print("Неизвестный символ ");
         }
 
         return result;
